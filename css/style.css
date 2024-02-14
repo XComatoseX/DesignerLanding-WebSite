@@ -57,9 +57,11 @@ body{
 
 /* Header */
 .header{
-  margin-bottom: 200px;
+  margin-bottom: 163px;
+  border-bottom: 1px solid rgba(238,238,238,0.1);
   /* background-color: #222831; */
 }
+
 .nav__inner{
   display: flex;
   justify-content: space-between;
@@ -77,15 +79,64 @@ body{
 }
 
 /* Hero */
+.hero{
+  min-height: 660px;
+}
 .hero__info-inner{
   margin-left: 85px;
+  position: relative;
+  margin-bottom: 200px;
 }
 .hero__text{
+  padding-top: 40px;
   font-weight: 700;
   font-size: 96px;
   line-height: 100%;
   max-width: 586px;
+  margin-bottom: 48px;
 }
 .hero__text span{
   color: #00ADB5;
+}
+
+.hero__arrow{
+  position: absolute;
+  top: 83px;
+  left: -85px;
+  transform: rotate(-2deg);
+}
+
+.hire-btn{
+  text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.5);
+  background-color: #00ADB5;
+  border-radius: 24px;
+  padding: 10px 32px;
+  margin-right: 24px;
+}
+.download-btn{
+  backdrop-filter: blur(4px);
+  border-radius: 24px;
+  padding: 10px 66px 10px 32px;
+  width: 230px;
+  background: rgba(57, 62, 70, 0.75);
+  position: relative;
+}
+.btns{
+  display: flex;
+}
+.download-btn svg {
+  position: absolute;
+  top: 9px;
+  right: 31px;
+}
+.hero__img{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.hero__go-down{
+  display: flex;
+  margin-left: 284px;
+  margin-top: 300px;
+  max-width: 96px;
 }
