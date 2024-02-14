@@ -248,3 +248,45 @@ body{
   backdrop-filter: blur(4px);
   border-radius: 16px;
 }
+
+
+/* Mailing */
+.mailing{
+  margin-top: 260px;
+  margin-bottom: 210px;
+}
+.mailing__inner{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.mailing__title{
+  line-height: 125%;
+  max-width: 600px;
+}
+.mailing__title span{
+  color: #00ADB5;
+}
+.mailing-info{
+  position: relative;  
+}
+.mailing-arrow{
+  position: absolute;
+  transform: rotate(175deg);
+  bottom: 140px;
+  left: 40px;
+}
+.mailing-img{
+  margin-left: 216px;
+}
+.form__text{
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.form__input-name,
+.form__input-email,
+.form__input-message{
+  width: 100%;
+  border: none;
+  outline: none;
+}
