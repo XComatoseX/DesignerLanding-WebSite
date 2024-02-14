@@ -25,6 +25,7 @@ a{
 }
 button{
   padding: 0;
+  margin: 0;
   border: none;
   background-color: transparent;
 }
@@ -53,6 +54,12 @@ body{
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+/* Title style */
+.title{
+  font-weight: 700;
+  font-size: 64px;
 }
 
 /* Header */
@@ -156,8 +163,6 @@ body{
   margin-bottom: 40px; */
 }
 .aboutme__title{
-  font-weight: 700;
-  font-size: 64px;
   margin-bottom: 30px;
 }
 .aboutme__title span{
@@ -186,4 +191,60 @@ body{
   position: absolute;
   left: 355px;
   top: -20px;
+}
+
+/* My works */
+.works{
+  background-image: url(../images/works-bg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 270px;
+}
+
+.works__title{
+  padding-top: 268px;
+  margin-bottom: 25px;
+}
+.works__title span{
+  color: #00ADB5;
+}
+
+.works__list{
+  display: flex;
+  padding: 0;
+  gap: 16px;
+}
+.works__btn{
+  backdrop-filter: blur(8px);
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 24px;
+  padding: 10px 32px;
+  color: #EEEEEE;
+  background: rgba(57, 62, 70, 0.5);
+  cursor: pointer;
+}
+.works__btn--active{
+  background-color: #00ADB5;
+}
+
+.works__exemple{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+}
+.works__exemple-img{
+  max-height: 158px;
+  object-fit: cover;
+}
+.works__exemple-item{
+  margin-top: 48px;
+  min-height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(57, 62, 70, 0.5);
+  backdrop-filter: blur(4px);
+  border-radius: 16px;
 }
