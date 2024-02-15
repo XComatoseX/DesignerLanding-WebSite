@@ -16,9 +16,9 @@ body{
   flex-direction: column;
 }
 
-/* .main{
+.main{
   flex-grow: 1;
-} */
+}
 a{
   text-decoration: none;
   color: inherit;
@@ -35,6 +35,10 @@ ul{
 }
 h1,h2,h3,h4,h5,h6, p{
   margin: 0;
+}
+input {
+  color: #fff; /* Цвет текста */
+  caret-color: #fff; /* Цвет курсора */
 }
 
 
@@ -81,7 +85,7 @@ body{
 }
 .nav__list{
   display: flex;
-  margin: 48px 0px 57px;
+  margin: 57px 0px 57px;
   gap: 48px;
 }
 
@@ -254,6 +258,8 @@ body{
 .mailing{
   margin-top: 260px;
   margin-bottom: 210px;
+  border-bottom: 1px solid rgba(238, 238, 238, 0.1);
+  padding-bottom: 250px;
 }
 .mailing__inner{
   display: grid;
@@ -278,10 +284,15 @@ body{
 .mailing-img{
   margin-left: 216px;
 }
+.form{
+  max-width: 600px;
+}
+
 .form__text{
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 10px;
+  max-width: 288px;
 }
 .form__input-name,
 .form__input-email,
@@ -289,4 +300,40 @@ body{
   width: 100%;
   border: none;
   outline: none;
+  border-radius: 16px;
+  background: rgba(57, 62, 70, 0.5);
+}
+
+.form__input-name,
+.form__input-email{
+  padding: 16px 24px;
+  width: 288px;
+}
+.form__input-message{
+  padding: 16px 492px 237px 24px;
+}
+
+.form-block{
+  min-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.form-btn{
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  gap: 10px;
+  font-size: 18px;
+  color: #EEEEEE;
+  font-weight: 700;
+  text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 24px;
+  padding: 10px 32px;
+  background-color: #00ADB5;
+}
+.form-btn img{
+  filter: drop-shadow(1px 4px 4px rgba(0, 0, 0, 0.5));
+  
 }
