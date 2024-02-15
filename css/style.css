@@ -264,6 +264,17 @@ body{
 .mailing__inner{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  position: relative;
+}
+.mailing__keyboard{
+  position: absolute;
+  right: 371px;
+  top: -200px;
+}
+.mailing__mail{
+  position: absolute;
+  bottom: -43px;
+  right: 117px;
 }
 .mailing__title{
   line-height: 125%;
