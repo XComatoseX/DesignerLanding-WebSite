@@ -32,6 +32,7 @@ button{
 ul{
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 h1,h2,h3,h4,h5,h6, p{
   margin: 0;
@@ -257,7 +258,7 @@ body{
 /* Mailing */
 .mailing{
   margin-top: 260px;
-  margin-bottom: 210px;
+  margin-bottom: 100px;
   border-bottom: 1px solid rgba(238, 238, 238, 0.1);
   padding-bottom: 250px;
 }
@@ -346,5 +347,63 @@ body{
 }
 .form-btn img{
   filter: drop-shadow(1px 4px 4px rgba(0, 0, 0, 0.5));
-  
+}
+
+
+
+
+
+/* Footer */
+.footer__nav{
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+.footer__nav-item-inner{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer__social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 52px;
+  gap: 24px;
+}
+.footer__social-item{
+  display: flex;
+  border-radius: 50px;
+  background-color: #393E46;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+}
+
+.footer__link{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 92px;
+  margin-bottom: 48px;
+  color: rgba(238, 238, 238, 0.75);
+}
+.footer__social-item--link{
+  height: 24px;
+}
+
+.footer__nav-item-inner--link{
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+.footer__nav-item-inner--link2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
