@@ -1,0 +1,24 @@
+@media(max-width: 580px){
+  .nav__list{
+    gap: 20px;
+  }
+}
+
+@media(max-width: 580px){
+  .nav__inner{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .nav-logo{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .nav__list{
+    text-align: center;
+    flex-direction: column;
+    margin-top: 45px;
+    gap: 13px;
+  }
+}
