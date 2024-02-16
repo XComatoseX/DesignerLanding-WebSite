@@ -84,10 +84,20 @@ body{
   font-weight: 700;
   margin: 48px 0;
 }
+.nav-logo:hover{
+  color: #00ADB5;
+  transition: all .3s;
+}
 .nav__list{
   display: flex;
   margin: 57px 0px 57px;
   gap: 48px;
+}
+.nav__item{
+  transition: all .3s;
+}
+.nav__item:hover{
+  color: #00ADB5;
 }
 
 /* Hero */
@@ -124,6 +134,13 @@ body{
   border-radius: 24px;
   padding: 10px 32px;
   margin-right: 24px;
+  transition: all .3s;
+}
+.hire-btn:hover,
+.form-btn:hover{
+  color: #00ADB5;
+  background-color: #EEEEEE;
+  text-shadow: none;
 }
 .download-btn{
   backdrop-filter: blur(4px);
@@ -132,6 +149,11 @@ body{
   width: 230px;
   background: rgba(57, 62, 70, 0.75);
   position: relative;
+  transition: all .3s;
+}
+.download-btn:hover{
+  background-color: #00ADB5;
+
 }
 .btns{
   display: flex;
@@ -151,6 +173,14 @@ body{
   margin-left: 284px;
   margin-top: 300px;
   max-width: 96px;
+}
+.hero__go-down-link{
+  transition: all .3s;
+  padding: 30px 37px 30px 36px;
+  background-color: #393E46;
+}
+.hero__go-down-link:hover{
+  background-color: #00ADB5;
 }
 
 /* About me */
@@ -196,6 +226,10 @@ body{
   position: absolute;
   left: 355px;
   top: -20px;
+  transition: fill .72s ease;
+}
+.aboutme__lamp:hover path{
+  stroke: #f8ec3d;
 }
 
 /* My works */
@@ -325,6 +359,17 @@ body{
   padding: 16px 492px 237px 24px;
 }
 
+.form__input-name:focus,
+.form__input-email:focus{
+  padding: 15px 23px;
+  border: 1px solid #00ADB5;
+}
+.form__input-message:focus{
+  padding: 15px 491px 236px 23px;
+  border: 1px solid #00ADB5;
+}
+
+
 .form-block{
   min-width: 100%;
   display: flex;
@@ -344,6 +389,7 @@ body{
   border-radius: 24px;
   padding: 10px 32px;
   background-color: #00ADB5;
+  transition: all .3s;
 }
 .form-btn img{
   filter: drop-shadow(1px 4px 4px rgba(0, 0, 0, 0.5));
@@ -383,6 +429,7 @@ body{
   align-items: center;
   width: 48px;
   height: 48px;
+  transition: all .3s;
 }
 
 .footer__link{
@@ -395,15 +442,42 @@ body{
 .footer__social-item--link{
   height: 24px;
 }
-
-.footer__nav-item-inner--link{
-  align-items: center;
-  display: flex;
-  gap: 10px;
+.footer__social-item--link path{
+  transition: all .3s;
 }
-.footer__nav-item-inner--link2{
-  display: flex;
-  justify-content: center;
+
+.footer__nav-item-inner--link,
+.footer__nav-item-inner--link path{
   align-items: center;
+  display: flex;
   gap: 10px;
+  transition: all .3s;
+}
+.footer__nav-item-inner--link:hover{
+  color: #00ADB5;
+}
+.footer__nav-item-inner--link:hover path{
+  stroke: #00ADB5;
+}
+
+.footer__social-item:hover{
+  background-color: #EEEEEE;
+}
+.footer__social-item:hover .facebook path{
+  stroke: #3b5998;
+}
+.footer__social-item:hover .instagram path{
+  stroke: #d62976;
+}
+.footer__social-item:hover .twitter path{
+  stroke: #00acee;
+}
+.footer__social-item:hover .youtube path{
+  stroke: #c4302b;
+}
+.footer__terms{
+  transition: all .3s;
+}
+.footer__terms:hover{
+  color: #00ADB5;
 }
