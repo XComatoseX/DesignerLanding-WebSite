@@ -191,6 +191,9 @@ body{
 }
 
 /* About me */
+.aboutme__img-mobile{
+  display: none;
+}
 .aboutme{
   padding-bottom: 70px;
   border-bottom: 1px solid rgba(238, 238, 238, 0.1);;
