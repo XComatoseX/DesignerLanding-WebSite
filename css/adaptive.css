@@ -14,6 +14,19 @@
   .aboutme__lamp{
     left: 400px;
   }
+
+  .works__exemple{
+    gap: 0;
+  }
+  .works__exemple-item{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .works__exemple-img{
+    padding: 20px;
+    width: 220px;
+    height: 182px;
+  }
 }
 
 @media(max-width: 1000px){
@@ -60,6 +73,11 @@
   .aboutme__img-mobile{
     max-width: 50%;
     margin: 0 auto;
+  }
+
+  .works__exemple{
+    grid-template-columns: repeat(1, 1fr);
+
   }
 }
 
