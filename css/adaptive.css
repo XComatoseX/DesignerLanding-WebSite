@@ -1,3 +1,12 @@
+@media(max-width: 1230px){
+  .form__input-message{
+    padding: 16px 230px 120px 16px;
+  }
+  .form__input-message:focus{
+    padding: 15px 229px 119px 15px;
+  }
+}
+
 @media(max-width: 1100px){
   .aboutme__img{
     display: none;
@@ -28,6 +37,17 @@
     width: 220px;
     height: 182px;
   }
+
+  .mailing-img{
+    margin-left: 150px;
+  }
+  .mailing-arrow{
+    left: 20px;
+  }
+  .form-block{
+    justify-content: center;
+  }
+  
 }
 
 @media(max-width: 1000px){
@@ -60,6 +80,16 @@
   .works__exemple-item{
     width: 220px;
   }
+
+  .mailing-arrow{
+    display: none;
+  }
+  .mailing-img{
+    margin-left: 10vh;
+  }
+  .mailing__title{
+    font-size: 60px;
+  }
 }
 
 
@@ -89,6 +119,12 @@
   .hero__go-down{
     display: none;
   }
+  .form-block{
+    justify-content: flex-start;
+  }
+  .mailing-img{
+    margin-left: 10px;
+  }
 }
 
 @media(max-width: 750px){
@@ -97,6 +133,50 @@
   }
   .works__exemple-item{
     width: 65%;
+  }
+  .mailing-img{
+    height: 35vh;
+  }
+  .mailing{
+    margin-top: 100px;
+  }
+  .mailing__mail{
+    bottom: -90px;
+  }
+}
+
+@media(max-width: 700px){
+  .mailing-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .mailing__inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-block{
+    display: flex;
+    justify-content: center; 
+  }
+  .form__input{
+    margin-right: 1px;
+  }
+  .form__input-name,
+  .form__input-email{
+    width: 100%;
+    padding: 16px 230px 20px 16px;
+  }
+  .form__input-name:focus,
+  .form__input-email:focus{
+    padding: 15px 229px 19px 15px;
+  }
+  .form{
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 }
 
@@ -156,7 +236,6 @@
     font-size: 14px;
     padding: 10px 60px 10px 28px;
   }
-
   .works__btn{
     font-size: 14px;
   }
@@ -228,5 +307,25 @@
 
   .works__btn{
     padding: 10px 12px;
+  }
+  .works__exemple-item{
+    width: 85%;
+  }
+}
+
+@media(max-width: 360px){
+  .form__input-name, .form__input-email,
+  .form__input-message{
+    padding: 16px 24px;
+  }
+  .form__input-message{
+    padding-bottom: 62px;
+  }
+  .form__input-name:focus, .form__input-email:focus{
+    padding: 15px 23px;
+  }
+  .form__input-message:focus{
+    padding: 15px 23px;
+    padding-bottom: 61px;
   }
 }
