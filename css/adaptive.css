@@ -173,8 +173,8 @@
     align-items: center;
   }
   .form__input-message{
-    padding: 0;
-    max-width: 280px;
+    padding-left: 24px;
+    max-width: 288px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -240,6 +240,10 @@
   }
   .works__btn{
     font-size: 14px;
+  }
+
+  .footer__nav{
+    gap: 20px;
   }
 }
 
@@ -313,7 +317,20 @@
   .works__exemple-item{
     width: 85%;
   }
+  .mailing{
+    margin-bottom: 50px;
+  }
+  .footer__link{
+    justify-content: center;
+  }
+
+  .footer__nav{
+    flex-direction: column;
+  }
 }
 
 @media(max-width: 360px){
+  .footer__link{
+    font-size: 14px;
+  }
 }
