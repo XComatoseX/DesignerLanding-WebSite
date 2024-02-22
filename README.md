@@ -18,5 +18,5 @@ Landing website for a designer in minimalism with easy editing options. This is 
 - ✈️ And more other
 
 ## 📌 RoadMap
-1. Creating Interactive actions
-2. Make adaptive
+~~1. Creating Interactive actions~~
+~~2. Make adaptive~~
